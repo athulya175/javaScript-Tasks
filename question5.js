@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let incrmbtn=document.getElementById("icrm")
 let decrembtn=document.getElementById("decrm")
 let resetbtn=document.getElementById("rest")
@@ -47,3 +48,13 @@ resetbtn.addEventListener('click',()=>{
     count=0
     countRange(count)
 })
+=======
+function characterFrequency(word){
+    let frequenCount={}
+    for(let i of word){
+        frequenCount[i]=(frequenCount[i]||0)+1
+    }
+    return frequenCount
+}
+console.log(characterFrequency("programming"))
+>>>>>>> cfc3c5c (day-1)
